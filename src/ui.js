@@ -154,6 +154,10 @@ export class UIController {
         if (distance <= displayRadius + 10) { // 10px tolerance for easier clicking
           this.state.setCenterBody(body.id);
           return;
+        }
+      }
+    }
+  }
   
   updateUI() {
     // Update time display
