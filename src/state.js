@@ -197,3 +197,4 @@ export class SimulationState {
       return `${yearsPerSecond.toFixed(1)} years/sec`;
     }
   }
+}
