@@ -157,8 +157,10 @@ export class UIController {
         }
       }
     }
-  }
+  );
+}
   
+
   updateUI() {
     // Update time display
     document.getElementById('sim-time').textContent = `Time: ${this.state.getDateString()}`;
