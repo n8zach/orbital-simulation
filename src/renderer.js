@@ -103,7 +103,7 @@ export class Renderer {
     const scale = CONFIG.PLANET_DISPLAY_SCALES[body.id] || 1.0;
     const displayRadius = Math.max(3, (baseRadius * scale) / state.viewport.zoom);
     
-    // Draw planet as circle (we'll use colors instead of images for simplicity)
+    //Draw planet as circle (we'll use colors instead of images for simplicity)
     this.ctx.fillStyle = body.visual.color;
     this.ctx.beginPath();
     this.ctx.arc(screen.x, screen.y, displayRadius, 0, Math.PI * 2);

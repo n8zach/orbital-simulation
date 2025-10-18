@@ -10,7 +10,7 @@ export const CONFIG = {
   TRAIL_MIN_PIXEL_DISTANCE: 3, // Minimum pixels moved before adding trail point
                                 // Lower = smoother trails, more points, worse performance
                                 // Higher = fewer points, better performance
-  MAX_TRAIL_ORBITS: 10,
+  MAX_TRAIL_ORBITS: 100,
   TRAIL_FADE_EXPONENT: 2, // Non-linear fade (higher = faster fade at end)
   
   // Visual settings - Planet display size multipliers for natural appearance
@@ -30,7 +30,7 @@ export const CONFIG = {
   INITIAL_ZOOM_PADDING: 1.2, // Multiplier for initial view (show all planets with padding)
   ZOOM_STEP: 1.2, // Multiplier per zoom in/out step
   MIN_ZOOM: 0.01,
-  MAX_ZOOM: 100,
+  MAX_ZOOM: 100000000000000,
   
   // Performance settings - CLEARLY LABELED FOR EASY ADJUSTMENT
   TARGET_FPS: 60,
