@@ -87,11 +87,11 @@ export class SimulationState {
   }
   
   zoomIn() {
-    this.setZoom(this.viewport.zoom * CONFIG.ZOOM_STEP);
+    this.setZoom(this.viewport.zoom / CONFIG.ZOOM_STEP);
   }
   
   zoomOut() {
-    this.setZoom(this.viewport.zoom / CONFIG.ZOOM_STEP);
+    this.setZoom(this.viewport.zoom * CONFIG.ZOOM_STEP);
   }
   
   resetView() {
