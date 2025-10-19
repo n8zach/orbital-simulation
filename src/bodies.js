@@ -41,8 +41,8 @@ export const BODIES = [
     },
     visual: {
       actualRadius: 2.4397e6,
-      color: '#8C7853',
-      trailColor: '#8C7853',
+      color: '#af5c28',
+      trailColor: '#af5c28',
     },
     mass: 3.3011e23,
   },
@@ -60,8 +60,8 @@ export const BODIES = [
     },
     visual: {
       actualRadius: 6.0518e6,
-      color: '#FFC649',
-      trailColor: '#FFC649',
+      color: '#49ff76',
+      trailColor: '#49ff76',
     },
     mass: 4.8675e24,
   },
@@ -98,8 +98,8 @@ export const BODIES = [
     },
     visual: {
       actualRadius: 3.3895e6,
-      color: '#E27B58',
-      trailColor: '#E27B58',
+      color: '#E1420D',
+      trailColor: '#e1420d',
     },
     mass: 6.4171e23,
   },
@@ -117,8 +117,8 @@ export const BODIES = [
     },
     visual: {
       actualRadius: 6.9911e7,
-      color: '#C88B3A',
-      trailColor: '#C88B3A',
+      color: '#ae3ac8',
+      trailColor: '#AE3AC8',
     },
     mass: 1.8982e27,
   },
