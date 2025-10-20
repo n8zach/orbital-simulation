@@ -48,7 +48,7 @@ export class UIController {
     // Mouse wheel zoom
     this.renderer.canvas.addEventListener('wheel', (e) => {
       e.preventDefault();
-      const zoomFactor = e.deltaY > 0 ? 1 / CONFIG.ZOOM_STEP : CONFIG.ZOOM_STEP;
+      const zoomFactor = e.deltaY < 0 ? 1 / CONFIG.ZOOM_STEP : CONFIG.ZOOM_STEP;
       this.state.setZoom(this.state.viewport.zoom * zoomFactor);
     }, { passive: false });
     
