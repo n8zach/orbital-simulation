@@ -70,7 +70,7 @@ export class UIController {
         const dy = e.touches[0].clientY - e.touches[1].clientY;
         const distance = Math.sqrt(dx * dx + dy * dy);
         
-        const zoomFactor = distance / lastTouchDistance;
+        const zoomFactor = lastTouchDistance / distance;
         this.state.setZoom(this.state.viewport.zoom * zoomFactor);
         
         lastTouchDistance = distance;
